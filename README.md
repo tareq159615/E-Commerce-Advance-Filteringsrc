@@ -1,7 +1,5 @@
 # E-Commerce Advance Filteringsrc
 
-![Project Preview](https://github.com/tareq159615/E-Commerce-Advance-Filteringsrc/blob/main/image.png) <!-- Add your project screenshot URL -->
-
 ## 📌 Features
 - **Product Filtering**:
   - Category (Sneakers, Flats, Sandals, Heels)
