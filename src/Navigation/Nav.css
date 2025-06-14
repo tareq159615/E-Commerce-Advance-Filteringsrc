@@ -1,0 +1,92 @@
+/* Nav.css - Responsive Version */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 2px solid #f3f3f3;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.search-input {
+  padding: 0.8rem 1.2rem;
+  border: none;
+  background: #f7f6f6;
+  outline: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  min-width: 250px;
+}
+
+.search-input:focus {
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-icons {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #4b5563;
+  transition: all 0.3s ease;
+}
+
+.nav-icons:hover {
+  color: #2563eb;
+  transform: scale(1.1);
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+  nav {
+    padding: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .nav-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .search-input {
+    width: 100%;
+    min-width: auto;
+  }
+
+  .profile-container {
+    justify-content: center;
+    width: 100%;
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  nav {
+    padding: 1rem 1.5rem;
+  }
+
+  .search-input {
+    min-width: 200px;
+  }
+}

@@ -1,0 +1,108 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(97, 97, 97);
+}
+
+li {
+  list-style: none;
+}
+
+.btns {
+  padding: 10px 20px;
+  margin-right: 6px;
+  background: transparent;
+  border: none;
+  border: 0.6px solid #ccc;
+  border-radius: 5px;
+  color: #323232;
+  cursor: pointer;
+}
+
+
+/* Add to index.css */
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #1e40af;
+  --text-color: #333;
+  --light-gray: #f3f4f6;
+  --transition: all 0.3s ease;
+}
+
+@media (max-width: 1200px) {
+  .sidebar {
+    width: 25%;
+  }
+  .card-container {
+    margin-left: 26rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .sidebar {
+    width: 30%;
+  }
+  .card-container {
+    margin-left: 31rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    position: relative;
+    height: auto;
+    padding: 1rem;
+    border-right: none;
+    border-bottom: 2px solid #e5e5e5;
+  }
+  
+  .card-container {
+    margin-left: 0;
+    justify-content: center;
+  }
+  
+  .recommended-flex, 
+  .recommended-title {
+    margin-left: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  nav {
+    margin-left: 0;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .profile-container {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .card-img {
+    width: 100%;
+  }
+  
+  .recommended-flex {
+    gap: 0.5rem;
+  }
+  
+  .btns {
+    padding: 8px 12px;
+    margin-right: 4px;
+  }
+}

@@ -1,0 +1,76 @@
+/* Recommended.css - Responsive Version */
+
+.recommended-title {
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2d3748;
+  text-align: center;
+}
+
+.recommended-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.btns {
+  padding: 0.6rem 1.2rem;
+  background: transparent;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  color: #4a5568;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  text-transform: capitalize;
+}
+
+.btns:hover {
+  background: #2563eb;
+  color: white;
+  border-color: #2563eb;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(37, 99, 235, 0.1);
+}
+
+.btns:active {
+  transform: translateY(0);
+}
+
+/* Active State */
+.btns.active {
+  background: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 640px) {
+  .recommended-title {
+    font-size: 1.3rem;
+    margin: 1rem 0;
+  }
+
+  .recommended-flex {
+    gap: 0.6rem;
+  }
+
+  .btns {
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .recommended-title {
+    font-size: 1.4rem;
+  }
+
+  .btns {
+    padding: 0.7rem 1.1rem;
+  }
+}
