@@ -1,6 +1,6 @@
 # E-Commerce Advance Filteringsrc
 
-![Project Preview](https://reliable-vacherin-78a9d8.netlify.app/) <!-- Add your project screenshot URL -->
+![Project Preview](https://github.com/tareq159615/E-Commerce-Advance-Filteringsrc/blob/main/image.png) <!-- Add your project screenshot URL -->
 
 ## 📌 Features
 - **Product Filtering**:
