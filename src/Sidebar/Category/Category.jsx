@@ -8,32 +8,37 @@ function Category({ handleChange }) {
         <h2 className="sidebar-label-container">Category</h2>
         <div>
           <label className="sidebar-label-container">
-            <input onChange={handleChange} type="radio" value="" name="test1" />
+            <input
+              onChange={handleChange}
+              type="radio"
+              value=""
+              name="test"
+            />
             <span className="checkmark"></span>All
           </label>
           <Input
             handleChange={handleChange}
             value="sneakers"
             title="Sneakers"
-            name="test1"
+            name="test"
           />
           <Input
             handleChange={handleChange}
             value="flats"
             title="Flats"
-            name="test1"
+            name="test"
           />
           <Input
             handleChange={handleChange}
             value="sandals"
             title="Sandals"
-            name="test1"
+            name="test"
           />
           <Input
             handleChange={handleChange}
             value="heels"
             title="Heels"
-            name="test1"
+            name="test"
           />
         </div>
       </div>
